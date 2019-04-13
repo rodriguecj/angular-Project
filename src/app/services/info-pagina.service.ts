@@ -26,7 +26,7 @@ export class InfoPaginaService {
         this.cargada = true
         this.info = resp
         this.titulo = this.info.titulo
-        console.log('Desde servicio'+this.info.titulo)
+        //console.log('Desde servicio'+this.info.titulo)
       }
     )
   }
@@ -35,7 +35,7 @@ export class InfoPaginaService {
       (resp)=>{
         this.cargada = true
         this.equipo = resp;
-        console.log(resp)
+        //console.log(resp)
       },err=>{
         console.log(err)
       }
