@@ -15,7 +15,7 @@ export class InfoPaginaService {
   constructor( 
      public _http: HttpClient
   ) {
-    console.log('Ya cargo el servicio')
+    //console.log('Ya cargo el servicio')
     this.cargarInfo()
     this.cargarEquipo()
   }
